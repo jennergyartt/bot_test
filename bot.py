@@ -7,7 +7,7 @@ TOKEN = 'YOUR_TOKEN'
 def start(update, context):
     user = update.effective_user
     context.bot.send_message(chat_id=update.effective_chat.id,
-                             text=f"Привет, {user.first_name}!")
+                             text=f"Hi, {user.first_name}!")
 
 # Функция-обработчик для обычных текстовых сообщений
 def echo(update, context):
