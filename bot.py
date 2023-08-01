@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # Замените 'YOUR_TOKEN' на токен вашего бота
-TOKEN = 'YOUR_TOKEN'
+#TOKEN = 'YOUR_TOKEN'
 
 # Функция-обработчик для команды /start
 def start(update, context):
