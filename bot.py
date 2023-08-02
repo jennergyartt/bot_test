@@ -1,5 +1,5 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-
+from config import TOKEN
 # Замените 'YOUR_TOKEN' на токен вашего бота
 #TOKEN = 'YOUR_TOKEN'
 
