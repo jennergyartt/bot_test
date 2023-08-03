@@ -9,6 +9,11 @@ def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id,
                              text=f"Hi, {user.first_name}!")
 
+def help(update, context):
+    user = update.effective_user
+    context.bot.send_message(chat_id=update.effective_chat.id,
+                             text=f"help, {user.first_name}!")
+
 # Функция-обработчик для обычных текстовых сообщений
 def echo(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id,
