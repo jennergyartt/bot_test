@@ -5,7 +5,7 @@ from config import TOKEN
 def start(update, context):
     user = update.effective_user
     context.bot.send_message(chat_id=update.effective_chat.id,
-                             text=f"Hi, {user.first_name}!")
+                             text=f"Hellow, {user.first_name}!")
 
 def help(update, context):
     user = update.effective_user
