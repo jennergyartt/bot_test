@@ -6,7 +6,7 @@ def start(update, context):
     user = update.effective_user
     context.bot.send_message(chat_id=update.effective_chat.id,
                              text=f"Hellow, {user.first_name}!")
-
+# Функция-обработчик для команды /help
 def help(update, context):
     user = update.effective_user
     context.bot.send_message(chat_id=update.effective_chat.id,
