@@ -36,5 +36,3 @@ def main():
     # Останавливаем бота при нажатии Ctrl+C
     updater.idle()
 
-if __name__ == '__main__':
-    main()
