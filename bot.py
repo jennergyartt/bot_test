@@ -18,10 +18,8 @@ def echo(update, context):
                              text=update.message.text)
 
 def main():
-    # Создаем объект Updater и передаем ему токен бота
     updater = Updater(token=TOKEN, use_context=True)
 
-    # Получаем диспетчер для регистрации обработчиков команд и сообщений
     dp = updater.dispatcher
 
     # Добавляем обработчик команды /start
