@@ -24,6 +24,7 @@ def main():
 
     # Добавляем обработчик команды /start
     dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(CommandHandler("help", start))
 
     # Добавляем обработчик обычных текстовых сообщений
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
