@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from config import TOKEN
 
-# Функция-обработчик для команды /start
+
 def start(update, context):
     user = update.effective_user
     context.bot.send_message(chat_id=update.effective_chat.id,
